@@ -1,0 +1,180 @@
+//META{"name":"Purple_Pride","description":"Cx","author":"Nicodemius","version":"1.0"}*//{}
+
+.tab-bar-item, .chat>.title-wrap>.title, 
+.chat>.title-wrap>.title .channel-name,
+.channel-textarea-inner textarea {
+    color: #e0eeee !important;
+}
+
+.tab-bar-item.bd-tab, #user-profile-modal .tab-bar .tab-bar-item {
+    color: #7289da !important;
+}
+
+.links, .search-bar-clear {
+    display: none;
+}
+
+.guilds {
+    background: #551A8B;
+}
+
+.friends-icon {
+    background: #663096;
+}
+
+.guild.selected:before, 
+.guilds li.active .guild-inner:before,
+.guilds.unread .guild-inner:before {
+    background: #fff;
+    border: 1px solid #888;
+}
+
+.guild-inner a, .tab-bar.SIDE, 
+.guilds-wrapper .guild-separator:after,
+.guilds-wrapper .guilds .guild+.guilds-add {
+    background: #888;
+}
+
+.guild-channels, 
+.channel-members, 
+.highlight, 
+.private-channels, 
+.channel-textarea-autocomplete-inner ul {
+    background: #663096;
+}
+
+.guild-header header, 
+.guild-header header:hover, 
+.guild-header.guild-header ul, .search-bar, #friends .friends-header,
+#voice-connection {
+    background: #5b6dae;
+    box-shadow: none;
+}
+
+.guild-channels ul .channel a {
+    opacity: .6;
+}
+
+.member-username-inner {
+    font-family: Tahoma !important;
+    font-size: 12px;
+}
+
+.channel-name {
+    font-family: Trebuchet MS !important;
+    font-size: 14px;
+}
+
+
+.account, #voice-connection {
+    background: #885ead;
+    border-top: none;
+}
+
+.channel:not(.selected):hover, 
+.guild-channels ul .channel-text:hover,
+.channel-members .member:hover, 
+.channel-members .popout-open, 
+.channel-textarea-autocomplete-inner ul li.active, 
+.channel.selected {
+    background: rgba(178,153,204) !important;
+}
+
+.channel-text.selected {
+    background: rgba(178,153,204) !important;
+}
+
+.btn-group{
+    border: 1px solid #fff !important;
+    background: #888;
+}
+
+.channel.channel-text.unread:before, 
+.guilds-wrapper .guilds .guild.unread:before,
+.guilds-wrapper .guilds .guild.selected:before,
+.guild-channels .channel-text:before  {
+    border: 1px solid #FFF !important;
+    background: #09f0f6 !important;
+}
+
+.guild-channels .channel-text:hover.channel-muted:before, 
+.guild-channels .channel-text:hover:not(.unread):before {
+    border-left: 2px solid #7289da !important;
+}
+
+.btn-mute, .btn-deafen, .btn-settings, .btn-info, .btn-disconnect {
+    background: #9f7ebd !important;
+}
+
+.btn-mute, .btn-deafen, .channel-textarea-upload,
+#voice-connection .btn-info {
+    border-right: 1px solid #fff !important;
+    color: #9f7ebd !important;
+}
+
+.btn-deafen, .btn-settings, #voice-connection .btn-disconnect {
+    box-shadow: none !important;
+}
+
+.messages-wrapper, .flex-spacer, .title-wrap, .typing, #friends {
+    background: #6a3f91 !important;
+}
+
+.channel-textarea-inner {
+    background: #e0eeee;
+    color: #fff !important;
+}
+
+.channel-textarea-autocomplete-inner header, 
+.channel-textarea-autocomplete-inner:after,
+.title-wrap {
+    border-bottom: none;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background: #ADADAD;
+    border: 3px solid #BDBDBD;
+}
+
+.channel:not(.selected):hover.channel:not(.selected):hover a, 
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover, 
+.guild-channels .channel-text.unread:not(.selected) .channel-name:hover {
+    opacity: 1;
+}
+
+.channel:hover .channel-name {
+    opacity:1 !important;
+}
+
+.guild-channels .channel-text.unread:not(.selected) .channel-name {
+    opacity: .5;
+}
+
+.guild-channels .channel a {
+    opacity: .65;
+}
+
+.message-group a {
+    color: #00B0F4 !important;
+}
+
+.search-bar input {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.user-popout .body .notes textarea {
+    color: #e0eeee !important;
+}
+
+.markup {
+    color: #e0eeee !important;
+    padding-top: 2px;
+    padding-left: 8px;
+}
+
+#voice-connection .btn, .channel-textarea-inner textarea {
+    background-color: transparent;
+}
+
+	
